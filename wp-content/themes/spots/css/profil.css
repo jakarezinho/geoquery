@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.profil {
+	padding: 10px;
+}
+.profil select  {
+	line-height: 10px;
+	font-size: 15px;
+	padding: 5px;
+	width: 30%;
+}
+.profil input[type="text"], .profil input[type="password"],.profil textarea{
+	width:100%;	
+}
+.profil .updated {
+	padding: 4px;
+	color: #090;
+	background-color: #D8FFB0;
+}
+.profil .error {
+	padding: 4px;
+	color: #F00;
+	background-color: #F99;
+}

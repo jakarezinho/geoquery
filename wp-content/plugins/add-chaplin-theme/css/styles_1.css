@@ -1,0 +1,29 @@
+.postsbycategory {display:flex;
+     flex-wrap: wrap;
+  }
+.item {
+  max-width: 150px;
+  margin: 10px;
+ font-weight: bold;
+ font-family: Merriweather,Georgia,'Times New Roman',Times,serif;
+	
+ /* background-color:#e8f2f3;*/
+}
+.item a {
+ text-decoration:none;
+ color:#000;
+	}
+@media screen and (max-width: 480px) {
+	.item {
+  max-width: 80px;
+  margin: 5px;
+  font-size:12px;
+}
+
+}
+.item img {
+ width: 100%;
+ height:auto;
+ margin-bottom: 10px;
+
+}

@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+/* promo*/
+.s{
+	background-color: #FFFFCC;
+	background-image: url(http://www.check-inlove.com/blog/wp-content/themes/check-inlove/images/logo_ev.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100px;
+	width: 100px;
+	border-radius: 10%;
+	border: 1px solid #CCC;
+	margin-right: auto;
+	margin-left: auto;
+}
+.mini_promo {
+	background-color: #FFFFCC;
+	background-position: center center;
+	float: left;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+	background-image: url(http://www.check-inlove.com/blog/wp-content/themes/check-inlove/images/logo_ev.png);	
+}
+.dia_decal {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333;
+	margin-top: 10px;
+	width: 5px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.liste {
+	font-size: 100%;
+}
+.promo_data {
+	text-align: center;
+	padding: 5px;
+	font-size: 80%;
+	text-shadow: 1px 1px 1px rgba(225, 225, 225, 0.25);
+
+}
+.promo_data p {
+	margin: 0px;
+	padding: 0px;
+}
+.promo_data .dia {
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 0.8;
+	padding-bottom: 0px;
+}
+.promo_data .mes {
+	font-size: 12px;
+	text-transform: uppercase;
+	padding-bottom: 2px;
+	color: #F00;
+}
+.promo input {
+	padding: 5px;
+}
+.promo h3 {
+	font-weight: bold;
+}
+.promo_single span {
+	font-size: 150%;
+	background-color: #FFC;
+}
+.promos {
+	text-align: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+.promos_sidebar {
+	text-align: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	background-color: #F9F9F7;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+.promos_sid_info {
+	margin-top: 5px;
+	border-top-width: 1px;
+	border-top-style: dashed;
+	border-top-color: #CCC;
+}
+.promo_decorrer {
+	position: absolute;
+	margin-left: 220px;
+}
+.promo_petit {
+	font-size: 12px;
+	color: #666;
+}
+.promo_image {
+	width: 600px;
+	height: auto;
+	overflow: hidden;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.promo_image img{
+	height: auto;
+	width: 100%;
+}
+
+.promo_petit .avatar {
+	border-radius: 70%;}
+.promos_decal {
+	/*margin-left: 140px;*/
+}
+.promos_nav {
+	margin-top: 10px;
+	background-color: #FFC;
+}
+.promo_content {
+	margin-bottom: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D6D6D6;
+	padding-bottom: 10px;
+}
+.expired {
+	color: #F30;
+}
+.local {
+	background-image: url(http://check-inlove.com/geo/images/mini.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 16px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.data_promo {
+	background-image: url(http://check-inlove.com/geo/images/calendar_mini.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 18px;
+}
+.form_promo {
+	width: 90%;
+}
+.nav_promo {
+	margin-bottom: 20px;
+}
+.droite {
+	float: right;
+}
+.hoje {
+	background-image: url(http://check-inlove.com/geo/images/oferta.png);
+	background-repeat: no-repeat;
+	background-position: -5px top;
+	background-color: #FFFFF4;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top-width: 1px;
+	border-right-width: 10px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.hoje_top {
+	padding-left: 45px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.hoje li {
+	padding-left: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.hoje_2 {
+	background-color: #C6ECFF;
+	padding: 2px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+.ultimo {
+	padding: 2px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: bold;
+	color: #F00;
+	background-color: #FF9;
+}
+.login_fb {
+	color: #06C;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.aviso{
+	padding-top: 5px;
+}
+.local {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+.local_map { width:100%; height:450px;}

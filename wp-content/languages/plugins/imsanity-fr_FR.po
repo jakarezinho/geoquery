@@ -1,0 +1,239 @@
+# Translation of Plugins - Imsanity - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Imsanity - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-23 20:25:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Imsanity - Development (trunk)\n"
+
+#. Author of the plugin
+msgid "Exactly WWW"
+msgstr "Exactement WWW"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:107
+msgid "imagecreatefrombmp: %s has not enough data!"
+msgstr "imagecreatefrombmp : %s n’a pas assez de données !"
+
+#. translators: 1: File-name of the image 2: the error message, translated
+#. elsewhere
+#: libs/utils.php:308
+msgid "wp_get_image_editor missing"
+msgstr "wp_get_image_editor manquant"
+
+#. translators: 1: File-name of the image 2: the error message, translated
+#. elsewhere
+#: libs/utils.php:293 libs/utils.php:300 libs/utils.php:308 libs/utils.php:315
+msgid "ERROR: %1$s (%2$s)"
+msgstr "Erreur : %1$s (%2$s)"
+
+#. translators: 1: File-name of the image 2: the error message, translated
+#. elsewhere
+#: libs/utils.php:300
+msgid "Unknown error, resizing function returned the same filename"
+msgstr "Erreur inconnue, la fonction de redimensionnement renvoie le même nom de fichier."
+
+#: ajax.php:33
+msgid "Access token has expired, please reload the page."
+msgstr "Le jeton d’accès a expiré, veuillez recharger la page."
+
+#: settings.php:684
+msgid "WARNING: Bulk Resize will alter your original images and cannot be undone!"
+msgstr "Avertissement : le redimensionnement en masse modifiera vos images originales et ne pourra pas être annulé !"
+
+#: settings.php:290 settings.php:298 settings.php:305 settings.php:765
+#: settings.php:774 settings.php:782
+msgid "Max Height"
+msgstr "Hauteur max."
+
+#: settings.php:289 settings.php:297 settings.php:304 settings.php:764
+#: settings.php:773 settings.php:781
+msgid "Max Width"
+msgstr "Largeur max."
+
+#: settings.php:113
+msgid "Image"
+msgstr "Image"
+
+#: settings.php:108
+msgid "Resize Selected Images"
+msgstr "Redimensionner les images sélectionnées"
+
+#: settings.php:115
+msgid "There are no images that need to be resized."
+msgstr "Il n’y a aucune image nécessitant d’être redimensionnée."
+
+#: settings.php:76 settings.php:78
+msgid "Settings"
+msgstr "Réglages"
+
+#: settings.php:290 settings.php:298 settings.php:305 settings.php:765
+#: settings.php:774 settings.php:782
+msgid "in pixels, enter 0 to disable"
+msgstr "en pixels, saisissez 0 pour désactiver"
+
+#: settings.php:114
+msgid "Received an invalid response, please check for errors in the Developer Tools console of your browser."
+msgstr "Si vous avez reçu une réponse non valide, veuillez vérifier s’il y a des erreurs dans la console des outils développeur de votre navigateur."
+
+#: settings.php:107
+msgid "Resizing Complete"
+msgstr "Redimensionnement terminé"
+
+#. translators: %s: File-name of the image
+#: libs/utils.php:226
+msgid "%s is not writable"
+msgstr "%s n’est pas inscriptible"
+
+#. translators: %s: the image mime type
+#: imsanity.php:355
+msgid "Imsanity was unable to process the %s file. If you continue to see this error you may need to disable the conversion option in the Imsanity settings."
+msgstr "Imsanity n’a pas été en mesure de traiter le fichier %s. Si vous continuez à voir cette erreur, vous devriez désactiver l’option de conversion dans les réglages d’Imsanity."
+
+#: imsanity.php:331
+msgid "Unknown image type specified in imsanity_convert_to_jpg"
+msgstr "Type d’image inconnu spécifié dans imsanity_convert_to_jpg"
+
+#: imsanity.php:321
+msgid "Imsanity requires the GD library to convert PNG images to JPG"
+msgstr "Imsanity nécessite la bibliothèque GD pour convertir les images PNG en JPG"
+
+#: ajax.php:23
+msgid "Administrator permission is required"
+msgstr "Les droits administrateur sont nécessaires"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/imsanity/"
+msgstr "https://fr.wordpress.org/plugins/imsanity/"
+
+#. Author URI of the plugin
+msgid "https://ewww.io/"
+msgstr "https://ewww.io/"
+
+#: settings.php:314 settings.php:793
+msgid "Valid values are 1-100."
+msgstr "Les valeurs valides sont 1-100."
+
+#: settings.php:320
+msgid "Convert BMP to JPG"
+msgstr "Convertir BMP en JPG"
+
+#: settings.php:800
+msgid "Convert BMP To JPG"
+msgstr "Convertir BMP en JPG"
+
+#: settings.php:833
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: settings.php:329
+msgid "Convert PNG to JPG"
+msgstr "Convertir PNG en JPG"
+
+#: settings.php:809
+msgid "Convert PNG To JPG"
+msgstr "Convertir PNG en JPG"
+
+#. Plugin Name of the plugin
+#: media.php:15 settings.php:37 settings.php:57
+msgid "Imsanity"
+msgstr "Imsanity"
+
+#: settings.php:353
+msgid "Update Settings"
+msgstr "Mettre à jour les réglages"
+
+#. Description of the plugin
+msgid "Imsanity stops insanely huge image uploads"
+msgstr "Insanity réduit incroyablement les énormes téléversements d’images"
+
+#: settings.php:736
+msgid "Imsanity settings have been configured by the server administrator. There are no site-specific settings available."
+msgstr "Les réglages d’Imsanity ont été configurés par l’administrateur du serveur. Il n’y a aucun réglage spécifique au site disponible."
+
+#: settings.php:667
+msgid "Bulk Resize Images"
+msgstr "Redimensionner les images en lot"
+
+#: settings.php:630
+msgid "Imsanity Settings"
+msgstr "Réglages Imsanity"
+
+#: settings.php:310 settings.php:789
+msgid "JPG image quality"
+msgstr "Qualité d’image JPG"
+
+#: settings.php:302 settings.php:779
+msgid "Images uploaded elsewhere (Theme headers, backgrounds, logos, etc)"
+msgstr "Images téléversées ailleurs (en-têtes, arrière-plans, logos du thème, etc)"
+
+#: settings.php:295 settings.php:771
+msgid "Images uploaded directly to the Media Library"
+msgstr "Images téléversées directement dans la bibliothèque des médias"
+
+#: settings.php:287 settings.php:762
+msgid "Images uploaded within a Page/Post"
+msgstr "Images téléversées à l’intérieur d’un·e page/article"
+
+#: settings.php:281
+msgid "Use global Imsanity settings (below) for all sites"
+msgstr "Utiliser les réglages globaux d’Imsanity (ci-dessous) pour tous les sites"
+
+#: settings.php:280
+msgid "Allow each site to configure Imsanity settings"
+msgstr "Permettre à chaque site de configurer les réglages d’Imsanity"
+
+#: settings.php:277
+msgid "Global Settings Override"
+msgstr "Contournement des réglages globaux"
+
+#: settings.php:406
+msgid "Imsanity network settings saved."
+msgstr "Réglages de réseau Imsanity enregistrés."
+
+#: settings.php:56 settings.php:252
+msgid "Imsanity Network Settings"
+msgstr "Réglages de réseau Imsanity"
+
+#: settings.php:36
+msgid "Imsanity Plugin Settings"
+msgstr "Réglages de l’extension Imsanity"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:35
+msgid "imagecreatefrombmp: %s is not a bitmap!"
+msgstr "imagecreatefrombmp : %s n’est pas une bitmap !"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:21 libs/imagecreatefrombmp.php:27
+msgid "imagecreatefrombmp: Can not open %s!"
+msgstr "imagecreatefrombmp : ne peut pas ouvrir %s !"
+
+#. translators: %s: File-name of the image
+#: libs/utils.php:323 class-imsanity-cli.php:86
+msgid "SKIPPED: %s (Resize not required)"
+msgstr "Ignoré : %s (redimensionnement non nécessaire)"
+
+#: ajax.php:135 ajax.php:162
+msgid "Missing ID Parameter"
+msgstr "Paramètre d’ID manquant"
+
+#. translators: %s: the image filename
+#: libs/imagecreatefrombmp.php:63
+msgid "imagecreatefrombmp: Cannot obtain filesize of %s !"
+msgstr "imagecreatefrombmp : ne peut obtenir la taille de %s !"
+
+#. translators: 1: the image filename 2: bitrate of image
+#: libs/imagecreatefrombmp.php:176
+msgid "imagecreatefrombmp: %1$s has %2$d bits and this is not supported!"
+msgstr "imagecreatefrombmp : %1$s a %2$d bits et ceci n’est pas supporté !"
+
+#. translators: %s: ID number of the image
+#: libs/utils.php:348
+msgid "ERROR: Attachment with ID of %d not found"
+msgstr "Erreur : fichier joint avec l’ID %d non trouvé"
