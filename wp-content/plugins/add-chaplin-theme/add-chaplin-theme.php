@@ -46,12 +46,13 @@ function wpb_postsbycategory($atts, $content = null) {
    
   // The Loop
   if ( $the_query->have_posts() ) {
+	  $string = NULL;
       $string .= '<div class="postsbycategory">';
       while ( $the_query->have_posts() ) {
           $the_query->the_post();
               if ( has_post_thumbnail() ) {
               $string .= '<div class="item">';
-              $string .= '<a href="' . get_the_permalink() .'" rel="bookmark">' . get_the_post_thumbnail($post_id, array( $height,$width) ) . get_the_title() .'</a></div>';
+              $string .= '<a href="' . get_the_permalink() .'" rel="bookmark">' . get_the_post_thumbnail($the_query->post->ID, array( $height,$width) ) . get_the_title() .'</a></div>';
               } else { 
               // if no featured image is found
               $string .= '<p><a href="' . get_the_permalink() .'" rel="bookmark">' . get_the_title() .'</a></p>';
